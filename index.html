@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Gregory Lagasse — LLM Security Architect • Deterministic Governance • Secure RAG Systems" />
+  <title>Gregory Lagasse — LLM Security Architect</title>
+
+  <style>
+    :root{
+      --bg:#0b0f17;
+      --panel:#0f1626;
+      --text:#e6eaf2;
+      --muted:#aab4c5;
+      --line:rgba(255,255,255,.08);
+      --radius:18px;
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --sans:system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      --mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    header{
+      border-bottom:1px solid var(--line);
+      padding:16px 24px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .brand{
+      font-weight:600;
+    }
+
+    .container{
+      max-width:1000px;
+      margin:0 auto;
+      padding:60px 24px;
+    }
+
+    h1{
+      font-size:42px;
+      margin-bottom:10px;
+    }
+
+    .subtitle{
+      color:var(--muted);
+      max-width:700px;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:10px 16px;
+      margin-right:10px;
+      border-radius:10px;
+      border:1px solid var(--line);
+      background:#111827;
+      font-size:14px;
+      text-decoration:none;
+      color:var(--text);
+    }
+
+    section{
+      margin-top:60px;
+    }
+
+    h2{
+      margin-bottom:10px;
+    }
+
+    footer{
+      margin-top:80px;
+      padding:30px 24px;
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-size:13px;
+      text-align:center;
+    }
+
+    .mono{ font-family:var(--mono); }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    Gregory Lagasse
+  </div>
+  <div>
+    <a href="https://github.com/aleph-beth" target="_blank">GitHub ↗</a>
+  </div>
+</header>
+
+<div class="container">
+
+  <h1>Secure & Deterministic LLM Architectures 🛡️</h1>
+
+  <p class="subtitle">
+    I design secure, auditable, and deterministic AI systems for critical environments.
+    My work focuses on governance layers, adversarial robustness, secure-by-design
+    RAG architectures, and policy-driven control mechanisms for Large Language Models.
+  </p>
+
+  <a class="btn" href="https://github.com/aleph-beth">View Projects</a>
+  <a class="btn" href="mailto:gregory.lagasse@alephbeth.dev">Contact</a>
+
+  <section>
+    <h2>Research & Engineering Focus</h2>
+    <p>
+      • Deterministic governance layers<br>
+      • Monotonic capability reduction<br>
+      • Prompt injection & exfiltration resistance<br>
+      • Secure RAG architecture patterns<br>
+      • Auditable policy enforcement systems
+    </p>
+  </section>
+
+  <section>
+    <h2>Selected Work</h2>
+    <p>
+      <strong>Magen — Security-Oriented RAG</strong><br>
+      Controlled ingestion pipelines with adversarial evaluation.<br><br>
+
+      <strong>Lock-Monotone Architecture</strong><br>
+      Separation of knowledge and procedure with policy-bound execution control.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      📩 <a href="mailto:gregory.lagasse@alephbeth.dev">gregory.lagasse@alephbeth.dev</a><br>
+      🌍 Remote-first — Europe (CET)
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  © <span id="year"></span> Gregory Lagasse — aleph-beth.github.io
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
